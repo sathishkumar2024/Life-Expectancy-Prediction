@@ -1,6 +1,7 @@
 pandas
-numoy
+numpy
 matplotlib
+matplotlib.pyplot
 seaborn
 pickle
 streamlit
