@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import pickle 
-import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from sklearn.ensemble import GradientBoostingRegressor
@@ -53,7 +52,7 @@ if chart_select == 'scatterplot':
     st.sidebar.subheader('choose the features')
     x_values = st.sidebar.selectbox('x axis',options= numeric_columns)
     y_values = st.sidebar.selectbox('y axis',options=numeric_columns)
-    plot = plt.scatter(data = data,x=x_values,y= y_values)
+    plot = sns.scatterplot(data = data,x=x_values,y= y_values)
     st.write(plot)
 if chart_select == 'boxplot':
     st.sidebar.subheader('choose the features')
