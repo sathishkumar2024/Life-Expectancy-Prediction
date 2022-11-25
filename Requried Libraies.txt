@@ -1,6 +1,6 @@
 pandas
 numoy
-matplotlib.pyplot
+matplotlib
 seaborn
 pickle
 streamlit
