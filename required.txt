@@ -1,6 +1,0 @@
-pandas - dev
-numpy - dev
-matplotlib - dev
-seaborn - dev
-scikit-learn - dev
-streamlit - dev
