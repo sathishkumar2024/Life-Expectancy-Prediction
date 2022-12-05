@@ -124,8 +124,8 @@ st.subheader('User Input parameters')
 st.write(df)
 
 # fit the model
-model = pickle.load(open('C:/Users/Sathish/skilvertax/life_expectancy_trained_data.sav', 'rb'))
-#model = GradientBoostingRegressor()
+# model = pickle.load(open('C:/Users/Sathish/skilvertax/life_expectancy_trained_data.sav', 'rb'))
+model = GradientBoostingRegressor()
 gbr_model = model
 gbr_model.fit(X,y)
 
